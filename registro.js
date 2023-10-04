@@ -1,0 +1,9 @@
+let container = document.getElementById('container')
+
+toggle = () => {
+	container.classList.toggle('sign-up')
+}
+
+setTimeout(() => {
+	container.classList.add('sign-up')
+}, 200)
