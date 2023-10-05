@@ -7,70 +7,63 @@
 	<link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
 	<link rel="stylesheet" href="style.css">
 	<title>
-		Registro
+		Login NOAR
 	</title>
 </head>
 
 <body>
 	<div id="container" class="container">
 		<!-- FORM SECTION -->
+	<form action="entrar.php" method="POST" >
 		<div class="row">
 			<!-- SIGN UP -->
 			<div class="col align-items-center flex-col sign-up">
+			</div>
+			<!-- END SIGN UP -->
+			<!-- SIGN IN -->
+			<div class="col align-items-center flex-col sign-in">
 				<div class="form-wrapper align-items-center">
-					<div class="form sign-up">
+					<div class="form sign-in">
 						<div class="input-group">
 							<i class='bx bxs-user'></i>
-							<input type="text" placeholder="Nome">
-						</div>
-						<div class="input-group">
-							<i class='bx bx-mail-send'></i>
-							<input type="email" placeholder="Email">
+							<input type="Email" name="email" id="email" placeholder="Email">
 						</div>
 						<div class="input-group">
 							<i class='bx bxs-lock-alt'></i>
-							<input type="password" placeholder="Senha">
-						</div>
-						<div class="input-group">
-							<i class='bx bxs-lock-alt'></i>
-							<input type="password" placeholder="Confirme sua Senha">
+							<input type="password" name="senha" id="senha" placeholder="Senha">
 						</div>
 						<button>
-							ENVIAR
+							Entrar
 						</button>
 					</div>
 				</div>
 			</div>
-			<!-- END SIGN UP -->
-			
+			<!-- END SIGN IN -->
 		</div>
+	</form>
 		<!-- END FORM SECTION -->
 		<!-- CONTENT SECTION -->
 		<div class="row content-row">
 			<!-- SIGN IN CONTENT -->
 			<div class="col align-items-center flex-col">
-			</div>
-			<!-- END SIGN IN CONTENT -->
-			<!-- SIGN UP CONTENT -->
-			<div class="col align-items-center flex-col">
-				<div class="img img-mx sign-up">
-					<img src="bomblg.png" alt="welcome">
-				</div>
-				<div class="text sign-up">
+				<div class="text sign-in">
 					<h2>
-						REGISTRO NOAR
+						Bem-vindo ao portal de login do NOAR
 					</h2>
-					<p id="txt">
-						A coragem é a força que nos impulsiona a enfrentar o desconhecido, a superar nossos medos e a persistir diante dos desafios. É o combustível da determinação que nos permite alcançar o impossível.
+					<p>
+						A coragem é a força que nos impulsiona a enfrentar o desconhecido, a superar nossos medos e a persistir diante dos desafios. É o combustível da determinação que nos permite alcançar o impossível. Quando abraçamos a coragem, descobrimos que somos capazes de conquistar montanhas, vencer obstáculos e trilhar caminhos que nunca pensamos serem possíveis.
 					</p>
 				</div>
+				<div class="img img-m sign-in">
+					<img src="bomb.png" alt="welcome">
+				</div>
 			</div>
-			<!-- END SIGN UP CONTENT -->
+			<!-- END SIGN IN CONTENT -->
 		</div>
 		<!-- END CONTENT SECTION -->
 	</div>
 
-	<script src="registro.js"></script>
+	<script src="login.js"></script>
 </body>
 
 </html>
