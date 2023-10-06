@@ -1,3 +1,8 @@
+<?php
+require_once('./assets/php/verification.php')
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -5,7 +10,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
-	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="./assets/css/style.css">
 	<title>
 		Login NOAR
 	</title>
@@ -14,7 +19,7 @@
 <body>
 	<div id="container" class="container">
 		<!-- FORM SECTION -->
-	<form action="entrar.php" method="POST" >
+	<form action="./assets/php/entrar.php" method="POST" >
 		<div class="row">
 			<!-- SIGN UP -->
 			<div class="col align-items-center flex-col sign-up">
@@ -55,7 +60,7 @@
 					</p>
 				</div>
 				<div class="img img-m sign-in">
-					<img src="bomb.png" alt="welcome">
+					<img src="./assets/imgs/bomb.png" alt="welcome">
 				</div>
 			</div>
 			<!-- END SIGN IN CONTENT -->
@@ -63,7 +68,7 @@
 		<!-- END CONTENT SECTION -->
 	</div>
 
-	<script src="login.js"></script>
+	<script src="./assets/js/login.js"></script>
 </body>
 
 </html>

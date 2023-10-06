@@ -5,7 +5,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
-	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="./assets/css/style.css">
 	<title>
 		Registro
 	</title>
@@ -14,7 +14,7 @@
 <body>
 	<div id="container" class="container">
 		<!-- FORM SECTION -->
-	<form action="inserir.php" method="POST" >
+	<form action="./assets/php/inserir.php" method="POST" >
 		<div class="row">
 			<!-- SIGN UP -->
 			<div class="col align-items-center flex-col sign-up">
@@ -22,23 +22,23 @@
 					<div class="form sign-up">
 						<div class="input-group">
 							<i class='bx bxs-user'></i>
-							<input type="text" id="nome" name="nome" placeholder="Nome">
+							<input type="text" id="nome" name="nome" placeholder="Nome" require>
 						</div>
 						<div class="input-group">
 							<i class='bx bxs-user'></i>
-							<input type="number" id="cpf" name="cpf" placeholder="150.834.756-32">
+							<input type="number" id="cpf" name="cpf" placeholder="150.834.756-32" require>
 						</div>
 						<div class="input-group">
 							<i class='bx bxs-user'></i>
-							<input type="number" id="telefone" name="telefone" placeholder="47988435234">
+							<input type="number" id="telefone" name="telefone" placeholder="47988435234" require>
 						</div>
 						<div class="input-group">
 							<i class='bx bx-mail-send'></i>
-							<input type="email" id="email" name="email" placeholder="Email">
+							<input type="email" id="email" name="email" placeholder="Email" require>
 						</div>
 						<div class="input-group">
 							<i class='bx bxs-lock-alt'></i>
-							<input type="password" id="senha" name="senha" placeholder="Senha">
+							<input type="password" id="senha" name="senha" placeholder="Senha" require>
 						</div>
 						<button>
 							ENVIAR
@@ -60,7 +60,7 @@
 			<!-- SIGN UP CONTENT -->
 			<div class="col align-items-center flex-col">
 				<div class="img img-mx sign-up">
-					<img src="bomblg.png" alt="welcome">
+					<img src="./assets/imgs/bomblg.png" alt="welcome">
 				</div>
 				<div class="text sign-up">
 					<h2>
@@ -76,7 +76,7 @@
 		<!-- END CONTENT SECTION -->
 	</div>
 
-	<script src="registro.js"></script>
+	<script src="./assets/js/registro.js"></script>
 </body>
 
 </html>
