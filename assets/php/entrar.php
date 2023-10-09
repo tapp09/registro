@@ -16,7 +16,7 @@ if(!empty($user)) {
     $_SESSION['id'] = $user['id'];
     $_SESSION['nome'] = $user['nome'];
     $_SESSION['email'] = $user['email'];
-    header('Location:../../index.php');
+    header('Location:../../dash.php');
 } else {
     echo 'Usuario não cadastrado!';
 }
