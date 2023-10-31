@@ -980,7 +980,7 @@
     </form>
   </main>
 
-  <script src="/assets/js/formscript.js"></script>
+  <script src="./assets/js/formscript.js"></script>
 </body>
 
 </html>

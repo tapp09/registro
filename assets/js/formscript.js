@@ -13,7 +13,7 @@ form.addEventListener("click", (e) => {
       currentStep++;
     },
     prev() {
-      currentStep--;
+      currentStep++;
     }
   }
 
